@@ -4,7 +4,10 @@
   "description": "Quick start for Express TS projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "tsc": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon -T src/index.ts"
   },
   "repository": {
     "type": "git",
