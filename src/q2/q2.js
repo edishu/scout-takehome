@@ -19,4 +19,4 @@ const getNestedTree = (data) => {
   return rootObject;
 };
 
-console.log(getNestedTree(example));
+console.log(JSON.stringify(getNestedTree(example), null, 2));
