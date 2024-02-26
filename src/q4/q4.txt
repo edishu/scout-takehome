@@ -1,0 +1,9 @@
+Given a data file containing an array of names, write an express based REST service 
+that returns the first name give a last name.
+
+[
+  "Kausik Dasgupta",
+  "Kia Behnia",
+  "Mason Earls",
+  ...
+]

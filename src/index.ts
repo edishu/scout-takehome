@@ -1,5 +1,6 @@
 import cors from "cors";
 import express from "express";
+import { getFirstName } from "./q4/q4";
 
 const app = express();
 
@@ -11,5 +12,6 @@ app.use(express.json());
 app.get("/", (_, res) => {
   res.send("Hello world");
 });
+app.post("/get-first-name", getFirstName);
 
 app.listen(3005, () => console.log(`Server ready at: http://localhost:3005`));
